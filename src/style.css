@@ -1,0 +1,15 @@
+@import "components/buttons.css";
+@import "components/list.css";
+
+input::placeholder {
+    color: red;
+}
+
+.image {
+    background-image: url() ;
+}
+@media screen and (min-resolution:2dppx) { /* resolución de px por pulgadas */
+    .image {
+        background-image: url() ;
+    }
+}
